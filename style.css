@@ -1,0 +1,141 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+
+section.top{
+    padding-bottom: 40px;
+    display: flex;
+    background-image: url('./picture/top-banner.png');
+    background-repeat: no-repeat;
+}
+
+.left{
+    margin: 70px 0 0 70px;
+    padding-right: 115px;
+    
+}
+.left h1{
+    line-height: 35px;
+}
+.left span{
+    color: deepskyblue
+}
+.right img{
+    width: 100%;
+}
+.right{
+    margin: 30px 50px 0 0;
+}
+.left h4{
+    padding-top:40px;
+    color: gray;
+}
+.left p{
+    padding:15px 0 25px 0;
+
+}
+.left a{
+    padding: 10px;
+    border: transparent;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,deepskyblue ,rgb(109, 186, 209));
+    color: white;
+}
+section.bottom{
+    padding-bottom: 60px;
+    display: flex;
+    background-image: url('./picture/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.experiences{
+    background-image: url('./picture/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 300px;
+}
+.card{
+    display: flex;
+
+
+}
+.experiences h1{
+    text-align: center;
+}
+.card{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    
+}
+.card h1{
+    padding:10px;
+}
+.card h4{
+    padding: 5px;
+    color: orange;
+}
+.card .right{
+    box-shadow: 10px 10px 20px gray;
+    height:200px;
+    padding: 10px;
+
+}
+#uniqe{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue ,orange);
+    border-image-slice: 1;
+}
+footer h2{
+    text-align: center;
+    color: gray;
+}
+@media(max-width:768px){
+    section.top{
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left{
+        margin: 0 0 0 70px;
+    }
+    section.bottom{
+        display: flex;
+       flex-direction: column;
+        background-repeat: no-repeat;
+        background-position: right;
+        
+    }
+    .right{
+        margin: 0 100px 0 0;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin: 20px 50px 20px 50px;
+    
+    
+    }
+    .experiences{
+        height: 100vh;
+    }
+    .card .right{
+        box-shadow: 10px 10px 20px gray;
+        height:300px;
+        padding-top: 10px;
+        overflow: hidden;
+        background-color: white;
+        
+    
+    }
+    .first-card{
+        margin-bottom: 20px;
+    }
+    footer h2{
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    
+}
