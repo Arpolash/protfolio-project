@@ -85,9 +85,12 @@ section.bottom{
     border-image: linear-gradient(blue ,orange);
     border-image-slice: 1;
 }
-footer h2{
+.foto h2{
     text-align: center;
     color: gray;
+}
+.foto{
+    padding-top: 30px;
 }
 @media(max-width:768px){
     section.top{
@@ -133,9 +136,10 @@ footer h2{
     .first-card{
         margin-bottom: 20px;
     }
-    footer h2{
+  
+    .foto h2{
         font-size: 15px;
-        padding-top: 30px;
+       
     }
     
 }
