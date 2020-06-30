@@ -85,11 +85,11 @@ section.bottom{
     border-image: linear-gradient(blue ,orange);
     border-image-slice: 1;
 }
-.foto h2{
+.footer h2{
     text-align: center;
     color: gray;
 }
-.foto{
+.footer{
     padding-top: 30px;
 }
 @media(max-width:768px){
@@ -122,7 +122,7 @@ section.bottom{
     
     }
     .experiences{
-        height: 100vh;
+        height: 700px;
     }
     .card .right{
         box-shadow: 10px 10px 20px gray;
@@ -137,7 +137,7 @@ section.bottom{
         margin-bottom: 20px;
     }
   
-    .foto h2{
+    .footer h2{
         font-size: 15px;
        
     }
